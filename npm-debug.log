@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'https://musicians-namwill.c9users.io' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /home/ubuntu/workspace/package.json
+5 warn package.json sleater@1.0.0 No description
+6 warn package.json sleater@1.0.0 No README data
+7 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+8 silly cache add args [ 'https://musicians-namwill.c9users.io', null ]
+9 verbose cache add spec https://musicians-namwill.c9users.io
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'https://musicians-namwill.c9users.io',
+10 silly cache add   scope: null,
+10 silly cache add   name: null,
+10 silly cache add   rawSpec: 'https://musicians-namwill.c9users.io',
+10 silly cache add   spec: 'https://musicians-namwill.c9users.io',
+10 silly cache add   type: 'remote' }
+11 silly mapToRegistry name https://musicians-namwill.c9users.io
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'https://musicians-namwill.c9users.io',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   name: null,
+14 silly mapToRegistry   rawSpec: 'https://musicians-namwill.c9users.io',
+14 silly mapToRegistry   spec: 'https://musicians-namwill.c9users.io',
+14 silly mapToRegistry   type: 'remote' }
+15 silly mapToRegistry uri https://musicians-namwill.c9users.io
+16 verbose addRemoteTarball https://musicians-namwill.c9users.io not in flight; adding
+17 verbose addRemoteTarball [ 'https://musicians-namwill.c9users.io', null ]
+18 info retry fetch attempt 1 at 12:37:54 AM
+19 info attempt registry request try #1 at 12:37:54 AM
+20 http fetch GET https://musicians-namwill.c9users.io/
+21 verbose request id 607c20852c7e03da
+22 http fetch 503 https://musicians-namwill.c9users.io
+23 info retry will retry, error on last attempt: Error: server error 503
+24 info attempt registry request try #2 at 12:38:04 AM
+25 http fetch GET https://musicians-namwill.c9users.io/
+26 http fetch 503 https://musicians-namwill.c9users.io
+27 info retry will retry, error on last attempt: Error: server error 503
+28 info attempt registry request try #3 at 12:39:04 AM
+29 http fetch GET https://musicians-namwill.c9users.io/
+30 http fetch 503 https://musicians-namwill.c9users.io
+31 error fetch failed https://musicians-namwill.c9users.io
+32 warn retry will retry, error on last attempt: Error: fetch failed with status code 503
+33 info retry fetch attempt 2 at 12:39:14 AM
+34 info attempt registry request try #1 at 12:39:14 AM
+35 http fetch GET https://musicians-namwill.c9users.io/
+36 http fetch 503 https://musicians-namwill.c9users.io
+37 info retry will retry, error on last attempt: Error: server error 503
+38 info attempt registry request try #2 at 12:39:24 AM
+39 http fetch GET https://musicians-namwill.c9users.io/
+40 http fetch 503 https://musicians-namwill.c9users.io
+41 info retry will retry, error on last attempt: Error: server error 503
+42 info attempt registry request try #3 at 12:40:24 AM
+43 http fetch GET https://musicians-namwill.c9users.io/
+44 http fetch 503 https://musicians-namwill.c9users.io
+45 error fetch failed https://musicians-namwill.c9users.io
+46 warn retry will retry, error on last attempt: Error: fetch failed with status code 503
+47 info retry fetch attempt 3 at 12:41:24 AM
+48 info attempt registry request try #1 at 12:41:24 AM
+49 http fetch GET https://musicians-namwill.c9users.io/
+50 http fetch 503 https://musicians-namwill.c9users.io
+51 info retry will retry, error on last attempt: Error: server error 503
+52 info attempt registry request try #2 at 12:41:34 AM
+53 http fetch GET https://musicians-namwill.c9users.io/
+54 http fetch 503 https://musicians-namwill.c9users.io
+55 info retry will retry, error on last attempt: Error: server error 503
+56 info attempt registry request try #3 at 12:42:34 AM
+57 http fetch GET https://musicians-namwill.c9users.io/
+58 http fetch 503 https://musicians-namwill.c9users.io
+59 error fetch failed https://musicians-namwill.c9users.io
+60 verbose stack Error: fetch failed with status code 503
+60 verbose stack     at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+60 verbose stack     at emitOne (events.js:77:13)
+60 verbose stack     at Request.emit (events.js:169:7)
+60 verbose stack     at Request.onRequestResponse (/home/ubuntu/.nvm/versions/node/v4.5.0/lib/node_modules/npm/node_modules/request/request.js:977:10)
+60 verbose stack     at emitOne (events.js:77:13)
+60 verbose stack     at ClientRequest.emit (events.js:169:7)
+60 verbose stack     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:433:21)
+60 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:103:23)
+60 verbose stack     at TLSSocket.socketOnData (_http_client.js:322:20)
+60 verbose stack     at emitOne (events.js:77:13)
+61 verbose cwd /home/ubuntu/workspace
+62 error Linux 4.2.0-c9
+63 error argv "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/node" "/home/ubuntu/.nvm/versions/node/v4.5.0/bin/npm" "install" "--save" "https://musicians-namwill.c9users.io"
+64 error node v4.5.0
+65 error npm  v2.15.9
+66 error fetch failed with status code 503
+67 error If you need help, you may report this error at:
+67 error     <https://github.com/npm/npm/issues>
+68 verbose exit [ 1, true ]

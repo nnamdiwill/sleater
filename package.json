@@ -1,0 +1,19 @@
+{
+  "name": "sleater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnamdiwill/sleater.git"
+  },
+  "author": "N'Namdi Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnamdiwill/sleater/issues"
+  },
+  "homepage": "https://github.com/nnamdiwill/sleater#readme"
+}
